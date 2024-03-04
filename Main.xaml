@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1966,5444" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable1" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugas="clr-namespace:UiPath.GSuite.Activities.Sheets;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1966,5476" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable1" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugas="clr-namespace:UiPath.GSuite.Activities.Sheets;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -197,7 +197,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1976,5379" sap2010:WorkflowViewState.IdRef="Sequence_54">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1976,5411" sap2010:WorkflowViewState.IdRef="Sequence_54">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Default="1" Name="num1" />
     </Sequence.Variables>
@@ -207,23 +207,23 @@
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="XeroDownloadReportsAutomation Sequence" sap:VirtualizedContainerService.HintSize="1914,5291" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence DisplayName="XeroDownloadReportsAutomation Sequence" sap:VirtualizedContainerService.HintSize="1914,5323" sap2010:WorkflowViewState.IdRef="Sequence_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[num1 = 1]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="1852,5180" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_4">
+      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[num1 = 1]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="1852,5212" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_4">
         <ui:InterruptibleDoWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1818,5043" sap2010:WorkflowViewState.IdRef="Sequence_120">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1818,5075" sap2010:WorkflowViewState.IdRef="Sequence_120">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1756,4958" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1756,4990" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -231,20 +231,20 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence DisplayName="Process Sequence" sap:VirtualizedContainerService.HintSize="1718,4707" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                <Sequence DisplayName="Process Sequence" sap:VirtualizedContainerService.HintSize="1718,4739" sap2010:WorkflowViewState.IdRef="Sequence_32">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ugas:GoogleSheetsApplicationScope ContinueOnError="{x:Null}" FileId="{x:Null}" Filename="{x:Null}" ParentFolderId="{x:Null}" ParentFolderPath="{x:Null}" Timeout="{x:Null}" Account="clientsdexterousgroup@gmail.com" Action="UseExisting" ConnectionAccountName="d.estoesta.dexterousgroup@gmail.com" ConnectionId="f19e7425-efe6-40bb-b439-da223b4b58b8" Connector="uipath-google-sheets" CredentialID="320242374052-gml0d412h188l9nd2tll61smv1tugoq4.apps.googleusercontent.com" CredentialSecret="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" DisplayName="Use Google Spreadsheet" sap:VirtualizedContainerService.HintSize="1656,4622" sap2010:WorkflowViewState.IdRef="GoogleSheetsApplicationScope_2" Mode="EnterId" SpreadsheetId="https://docs.google.com/spreadsheets/d/1QKoDW94uMuhtoaokGxgiJl4hPzXASB2_jogI8Wj4woA/edit?usp=drivesdk" SpreadsheetName="XeroDownloadReportsAutomation" UseConnectionService="False" UserEmail="clientsdexterousgroup@gmail.com">
+                  <ugas:GoogleSheetsApplicationScope ContinueOnError="{x:Null}" FileId="{x:Null}" Filename="{x:Null}" ParentFolderId="{x:Null}" ParentFolderPath="{x:Null}" Timeout="{x:Null}" Account="clientsdexterousgroup@gmail.com" Action="UseExisting" ConnectionAccountName="d.estoesta.dexterousgroup@gmail.com" ConnectionId="f19e7425-efe6-40bb-b439-da223b4b58b8" Connector="uipath-google-sheets" CredentialID="320242374052-gml0d412h188l9nd2tll61smv1tugoq4.apps.googleusercontent.com" CredentialSecret="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" DisplayName="Use Google Spreadsheet" sap:VirtualizedContainerService.HintSize="1656,4654" sap2010:WorkflowViewState.IdRef="GoogleSheetsApplicationScope_2" Mode="EnterId" SpreadsheetId="https://docs.google.com/spreadsheets/d/1QKoDW94uMuhtoaokGxgiJl4hPzXASB2_jogI8Wj4woA/edit?usp=drivesdk" SpreadsheetName="XeroDownloadReportsAutomation" UseConnectionService="False" UserEmail="clientsdexterousgroup@gmail.com">
                     <ugas:GoogleSheetsApplicationScope.Body>
                       <ActivityAction x:TypeArguments="ugas:IGoogleSheetTarget">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ugas:IGoogleSheetTarget" Name="Spreadsheet" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1622,4315" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1622,4307" sap2010:WorkflowViewState.IdRef="Sequence_33">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="sd1:DataTable" sap2010:Annotation.AnnotationText="Type 'sd:DataTable9' ('clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable9') could not be resolved and was automatically replaced with 'UnknownType'" Name="dtGoogleSheetResponses" />
                           </Sequence.Variables>
@@ -254,7 +254,7 @@
                               <x:Boolean x:Key="IsPinned">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uga:ReadRangeConnections x:TypeArguments="sd:DataTable1" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="XeroDownloadReportsAutomation" BrowserItemId="1QKoDW94uMuhtoaokGxgiJl4hPzXASB2_jogI8Wj4woA" ConnectionId="7372cd10-fa70-42e5-b7d6-6e926f595e34" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="1560,296" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Form Responses'" ReadAs="Values" Result="[dtGoogleSheetResponses]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+                          <uga:ReadRangeConnections x:TypeArguments="sd:DataTable1" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="XeroDownloadReportsAutomation" BrowserItemId="1QKoDW94uMuhtoaokGxgiJl4hPzXASB2_jogI8Wj4woA" ConnectionId="7372cd10-fa70-42e5-b7d6-6e926f595e34" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="1560,265" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Form Responses'" ReadAs="Values" Result="[dtGoogleSheetResponses]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
                             <uga:ReadRangeConnections.ColumnNames>
                               <x:Array Type="x:String">
                                 <x:String>Response ID</x:String>
@@ -295,7 +295,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uga:ReadRangeConnections>
-                          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Dashboard – Xero" sap:VirtualizedContainerService.HintSize="1560,3934" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="0cc05e9b-35bf-49b9-8cf5-13af0c179619" Timeout="300" Version="V2" WindowResize="Maximize">
+                          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Dashboard – Xero" sap:VirtualizedContainerService.HintSize="1560,3957" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="0cc05e9b-35bf-49b9-8cf5-13af0c179619" Timeout="300" Version="V2" WindowResize="Maximize">
                             <uix:NApplicationCard.Body>
                               <ActivityAction x:TypeArguments="x:Object">
                                 <ActivityAction.Argument>
