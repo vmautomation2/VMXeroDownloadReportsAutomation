@@ -1,0 +1,71 @@
+Sub MergeExcelFiles()
+    Dim objFSO As Object
+    Dim objFolder As Object
+    Dim objFile As Object
+    Dim wbOutput As Workbook
+    Dim wsOutput As Worksheet
+    Dim nextRow As Long
+    Dim strFolderPath As String
+    Dim strOutputPath As String
+    
+    ' Set the folder path for the downloaded reports
+    strFolderPath = "C:\Users\DanielEstoesta\OneDrive - Dexterous Group\Documents\UiPath\XeroDownloadReportsAutomation\Downloaded Reports\"
+    
+    ' Set the output path for the consolidated report
+    strOutputPath = "C:\Users\DanielEstoesta\OneDrive - Dexterous Group\Documents\UiPath\XeroDownloadReportsAutomation\Consolidated Reports\ConsolidatedReport.xlsx"
+    
+    ' Create a new workbook for the output
+    Set wbOutput = Workbooks.Add
+    Set wsOutput = wbOutput.Worksheets(1)
+    
+    ' Set the initial row for the output
+    nextRow = 1
+    
+    ' Create a File System Object
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+    Set objFolder = objFSO.GetFolder(strFolderPath)
+    
+    ' Loop through each file in the folder
+    For Each objFile In objFolder.Files
+        ' Check if the file is an Excel file
+        If objFSO.GetExtensionName(objFile.Path) = "xlsx" Or objFSO.GetExtensionName(objFile.Path) = "xls" Then
+            ' Open the file
+            Dim wb As Workbook
+            Set wb = Workbooks.Open(objFile.Path)
+            
+            ' Copy each sheet to the output workbook
+            Dim ws As Worksheet
+            For Each ws In wb.Sheets
+                ws.Copy After:=wsOutput.Parent.Sheets(wsOutput.Parent.Sheets.Count)
+                Set wsOutput = wsOutput.Parent.Sheets(wsOutput.Parent.Sheets.Count)
+                wsOutput.Cells(nextRow, 1).Value = objFile.Name ' Add file name in the first column
+                nextRow = nextRow + wsOutput.UsedRange.Rows.Count
+            Next ws
+            
+            ' Close the file
+            wb.Close False
+        End If
+    Next objFile
+    
+    ' Disable alerts
+    Application.DisplayAlerts = False
+    ' Delete the "Sheet1" worksheet
+    On Error Resume Next ' In case "Sheet1" does not exist
+    wbOutput.Worksheets("Sheet1").Delete
+    On Error GoTo 0 ' Reset error handling
+    ' Enable alerts
+    Application.DisplayAlerts = True
+    
+    ' Save the output workbook
+    wbOutput.SaveAs strOutputPath
+    wbOutput.Close False
+    
+    ' Release the objects
+    Set objFSO = Nothing
+    Set objFolder = Nothing
+    Set objFile = Nothing
+    Set wbOutput = Nothing
+    Set wsOutput = Nothing
+    
+    'MsgBox "Merge complete. Output file saved at " & strOutputPath
+End Sub

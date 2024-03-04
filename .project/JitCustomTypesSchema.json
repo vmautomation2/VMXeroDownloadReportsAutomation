@@ -1,0 +1,103 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|4RoEN6xbqvvjeCC1s0C2cxeX2LMRtY3ySUos4wPbj0Q",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Response ID",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Response completion time",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Email Address",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Report",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Entity Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Aged Payables Custom Date (As of)",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Balance Sheet Custom Date (As of)",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Profit & Loss Date From",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Profit & Loss Date To",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Status",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Filtered Report",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Filtered Entity Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Trimmed Entity Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Formatted Aged Payables Custom Date",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Formatted Balance Sheet Custom Date",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Formatted Profit & Loss Date From",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Formatted Profit & Loss Date To",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Formatted Submission Time",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Employee Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "File Name",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "ReadRangeConnections`1_1|DataTable|vsFdf0lFPCiE3TPaQehbwXErLE8Im8zIVik0TJnNY",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    }
+  ]
+}

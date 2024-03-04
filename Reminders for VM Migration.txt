@@ -1,0 +1,3 @@
+1. Edit strFolderPath and strOutputPath in VBA code of MergeExcelFiles.xlsm
+2. Enable "Ask where to save each file before downloading" in the browser's settings
+3. Setup the outlook account and login the google account in the browser

@@ -1,0 +1,8 @@
+Status
+="Pending"
+
+Filtered Report
+=TRIM(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D2, "[", ""), "]", ""), CHAR(34), ""))
+
+Filtered Entity Name
+=SUBSTITUTE(E2,CHAR(10),",")

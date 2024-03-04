@@ -1,0 +1,11 @@
+XERO Download Reports Automation
+1. Client will fill out the Microsoft form
+2. Google sheet will be updated according to request in Microsoft form. Column J is in "Pending" Status"
+3. Iterate column H, column G, column I
+4. Download the following from Xero > Accounting according to the Google sheet
+balance sheet
+profit/loss
+aged payables
+5. Consolidate the downloaded reports into 1 file. Paste each report to sheets. if the requestor requests for balance sheet, profit/loss and aged payables for 3 entities  then the excel file must have 9 sheets.
+6. Email the client with the attached consolidated reports
+7. Go back to Excel Master file, update column J to "Done"
